@@ -18,11 +18,17 @@ npm run dev
 
 ### Building for Production
 
+1. Build the project. Output goes into the 'dist' directory.
 ```bash
 npm run build
 ```
 
-The built files will be in the `dist` directory.
+2. Deploy the project. Pushes 'dist' to a 'gh-pages' branch.
+```bash
+npm run deploy
+```
+
+3. Github pages serves the latest 'gh-pages' branch at: `https://eoljjang.github.io/nathan-portfolio/`
 
 ## Adding Projects
 

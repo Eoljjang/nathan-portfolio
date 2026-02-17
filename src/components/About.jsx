@@ -1,4 +1,5 @@
 import './About.css'
+import pfpImage from "../images/pfp.png"
 
 function About({ id, setActiveSection }) {
   const name = 'Nathan Wong'
@@ -11,7 +12,7 @@ function About({ id, setActiveSection }) {
       <div className="container">
         <div className="about-content">
           <div className="about-avatar">
-            <img src="./src/images/pfp.png" alt={`${name} profile`} />
+            <img src={pfpImage} alt={`${name} profile`} />
           </div>
 
           <div className="about-text">
