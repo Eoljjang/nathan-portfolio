@@ -1,6 +1,6 @@
 import './About.css'
 import pfpImage from "../images/pfp.png"
-const resumePdfLink = process.env.PUBLIC_URL + "/resume.pdf"
+const resumePdfLink = `${import.meta.env.BASE_URL}resume.pdf`
 
 function About({ id, setActiveSection }) {
   const name = 'Nathan Wong'
