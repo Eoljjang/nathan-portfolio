@@ -1,21 +1,6 @@
 # Portfolio Website
 
-A clean, modern portfolio website built with React and Vite. Perfect for showcasing your projects and skills as a software developer.
-
-## Features
-
-- 🎨 Clean, modern design
-- 📱 Fully responsive
-- ⚡ Fast and lightweight
-- 🚀 Easy to customize
-- 📦 Simple project management
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
+My portfolio website.
 
 ### Installation
 
