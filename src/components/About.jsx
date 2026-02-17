@@ -1,5 +1,6 @@
 import './About.css'
 import pfpImage from "../images/pfp.png"
+const resumePdfLink = "/resume.pdf"
 
 function About({ id, setActiveSection }) {
   const name = 'Nathan Wong'
@@ -57,7 +58,7 @@ function About({ id, setActiveSection }) {
               >
                 Get In Touch
               </a>
-              <a href="./src/data/resume.pdf" download className="btn btn-secondary">
+              <a href={resumePdfLink} download className="btn btn-secondary">
                 Download Resume
               </a>
             </div>
