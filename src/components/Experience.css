@@ -1,0 +1,110 @@
+.experience {
+  padding: 4rem 0;
+  background-color: var(--bg-secondary);
+}
+
+.experience-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.experience-card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.experience-role {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.experience-company {
+  margin-top: 0.25rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.experience-company-name {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.experience-dates {
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.experience-summary {
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+}
+
+.experience-work {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.experience-work-item {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.25rem;
+}
+
+.experience-work-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.experience-work-title {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.experience-work-description {
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 3rem 0;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-dates {
+    white-space: normal;
+  }
+}
+
